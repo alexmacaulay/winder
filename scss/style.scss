@@ -64,7 +64,7 @@ h1 {
 	width: 100%;
 	margin: 0 auto;	
 	color: #333333;
-	font-family: $main-font
+	font-family: $main-font;
 }
 #snapshot {
 	li {
@@ -135,7 +135,7 @@ h2 {
 }
 #profile {
 	color: #333333;
-	font-family: $main-font
+	font-family: $main-font;
 	text-align: center;
 	max-width: 600px;
 	margin: 0 auto;
@@ -148,7 +148,7 @@ h2 {
 #images {
 	text-align: center;
 	color: #333333;
-	font-family: $main-font
+	font-family: $main-font;
 }
 #images {
 	img {
@@ -224,5 +224,4 @@ footer {
 		margin: 0 auto;
 	}
 }
-
 /*# sourceMappingURL=styles.css.map */
