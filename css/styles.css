@@ -9,7 +9,7 @@ ul {
 li {
   list-style-type: none; }
 
-nav ul {
+nav>ul {
   display: table;
   table-layout: fixed;
   text-align: center;
@@ -30,19 +30,19 @@ nav a {
 #hover-content {
   display: none; }
 #settings {
-  transition: transform 1s;
   position: absolute;
+  background-color: #FFFFFF;
 }
 #settings:hover{
-  transform: translate(20px, 20px);
-}
+  background-color: #7AC8D5;
+  width: 200px;
+ transition: background-color 500ms linear;}
 
 #settings:hover #hover-content {
   display: block;
   float: left;
   padding-left: 10px;
-  margin-left:0;
-  transform: translate(20px, 20px); }
+  margin-left:0; }
 
 #left-aside, #right-aside {
   display: none;
