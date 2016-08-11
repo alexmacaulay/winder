@@ -30,11 +30,32 @@ nav a {
 #hover-content {
   display: none; }
 
-#parent:hover #hover-content {
+#settings:hover #hover-content {
   display: block;
   float: left;
   padding-left: 30px; }
 
+#left-aside, #right-aside {
+  display: none;
+  font-family: Lucida "Sans Unicode", "Lucida Grande", sans-serif;
+  font-size: 22px;
+}
+#left-aside li, #right-aside li {
+  padding: 20px;
+}
+#left-aside a, #right-aside a {
+  text-decoration: none;
+  color: #333;
+}
+#right-aside .green {
+  color: green;
+}
+#right-aside .red {
+  color: red;
+}
+#left-aside li:hover, #right-aside li:hover {
+  background-color: #4159A8;
+}
 .left {
   float: left;
   padding: 30px 20px; }
@@ -72,7 +93,9 @@ h1 {
 #snapshot img:hover,
 #icons img:hover {
   background-color: #4159A8; }
-
+#tick img:active body {
+  background-color: #000000;
+}
 #top-images {
   text-align: center;
   margin-top: 20px; }
@@ -179,7 +202,8 @@ footer h6 {
     height: 100%;
     background-color: #7AC8D5;
     position: fixed;
-    top: 0; }
+    top: 0; 
+    display: block;}
 
   #right-aside {
     width: 250px;
@@ -187,7 +211,12 @@ footer h6 {
     background-color: #7AC8D5;
     position: fixed;
     top: 0;
-    right: 0; } }
+    right: 0;
+    display: block; }
+  #settings, #chat {
+    display: none;
+  } 
+}
 @media screen and (max-width: 650px) {
   #snapshot {
     max-width: 350px;
