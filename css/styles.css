@@ -15,7 +15,7 @@ nav ul {
   text-align: center;
   width: 100%; }
 
-nav ul li {
+nav>ul>li {
   display: table-cell;
   padding-right: 1px;
   height: auto;
@@ -31,6 +31,7 @@ nav a {
   display: none; }
 #settings {
   transition: transform 1s;
+  position: absolute;
 }
 #settings:hover{
   transform: translate(20px, 20px);
@@ -67,12 +68,6 @@ nav a {
 .left {
   float: left;
   padding: 30px 20px; }
-  #settings {
-    width: 10%;
-  }
-  #chat {
-    width: 10%;
-  }
 
 .right {
   float: right;
