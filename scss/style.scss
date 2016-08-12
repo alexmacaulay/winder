@@ -34,11 +34,11 @@ nav {
     height: 100px;
   }
 }
-
+/*content hidden by default*/
 #hover-content-settings {
   display: none;
 }
-
+/*content appears on hover with fade transition*/
 #settings {
   position: absolute;
   background-color: #FFFFFF;
@@ -61,7 +61,7 @@ nav {
   font-family: $primary-font;
   font-size: 22px;
 }
-
+/*content hidden by default*/
 #hover-content-chat {
   display: none;
   a {
@@ -69,7 +69,7 @@ nav {
     color: #333;
   }
 }
-
+/*content appears on hover with fade transition*/
 #chat {
   position: absolute;
   background-color: #FFFFFF;
@@ -165,10 +165,6 @@ h1 {
   background-color: #4159A8;
 }
 
-body:active  {
-  background-color: #000000;
-}
-
 #top-images {
   text-align: center;
   margin-top: 20px;
@@ -194,7 +190,7 @@ body:active  {
     padding: 10px;
   }
 }
-
+/*content enlarges on hover*/
 #top-images {
   .move-right:hover {
     transform: scale(4, 4) translate(20px, 0px);
@@ -239,7 +235,7 @@ h2 {
 #to-top {
   text-align: center;
 }
-
+/*animation for to top arrow at bottom of page*/
 .bounce {
   position: relative;
   margin: 0 auto;
@@ -263,7 +259,7 @@ footer {
     font-family: $primary-font;
   }
 }
-
+/*sets height of bouce animation*/
 @-webkit-keyframes bounce {
   0% {
     bottom: 15px;

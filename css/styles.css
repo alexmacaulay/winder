@@ -24,9 +24,11 @@ nav a {
   padding: 4px 10px;
   height: 100px; }
 
+/*content hidden by default*/
 #hover-content-settings {
   display: none; }
 
+/*content appears on hover with fade transition*/
 #settings {
   position: absolute;
   background-color: #FFFFFF; }
@@ -46,12 +48,14 @@ nav a {
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
   font-size: 22px; }
 
+/*content hidden by default*/
 #hover-content-chat {
   display: none; }
   #hover-content-chat a {
     text-decoration: none;
     color: #333; }
 
+/*content appears on hover with fade transition*/
 #chat {
   position: absolute;
   background-color: #FFFFFF;
@@ -128,9 +132,6 @@ h1 {
 #icons img:hover {
   background-color: #4159A8; }
 
-body:active {
-  background-color: #000000; }
-
 #top-images {
   text-align: center;
   margin-top: 20px; }
@@ -151,6 +152,7 @@ body:active {
     border-radius: 100%;
     padding: 10px; }
 
+/*content enlarges on hover*/
 #top-images .move-right:hover {
   transform: scale(4, 4) translate(20px, 0px); }
 #top-images .move-left:hover {
@@ -185,6 +187,7 @@ h2 {
 #to-top {
   text-align: center; }
 
+/*animation for to top arrow at bottom of page*/
 .bounce {
   position: relative;
   margin: 0 auto; }
@@ -204,6 +207,7 @@ footer {
     color: #333333;
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif; }
 
+/*sets height of bouce animation*/
 @-webkit-keyframes bounce {
   0% {
     bottom: 15px; }
