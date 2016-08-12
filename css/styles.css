@@ -41,6 +41,11 @@ nav a {
       margin-left: -10px;
       width: 200px; }
 
+#settings li {
+  padding-top: 70px;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  font-size: 22px; }
+
 #hover-content-chat {
   display: none; }
   #hover-content-chat a {
@@ -60,11 +65,6 @@ nav a {
       float: right;
       width: 200px; }
 
-#settings li {
-  padding-top: 70px;
-  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-  font-size: 22px; }
-
 #chat li {
   padding-top: 20px;
   height: 50px;
@@ -83,14 +83,14 @@ nav a {
   text-decoration: none;
   color: #333; }
 
+#left-aside li:hover, #right-aside li:hover, #settings li:hover, #chat li:hover {
+  background-color: #4159A8; }
+
 .green {
   color: green; }
 
 .red {
   color: red; }
-
-#left-aside li:hover, #right-aside li:hover, #settings li:hover, #chat li:hover {
-  background-color: #4159A8; }
 
 .left {
   float: left;
@@ -128,7 +128,7 @@ h1 {
 #icons img:hover {
   background-color: #4159A8; }
 
-#tick img:active body {
+body:active {
   background-color: #000000; }
 
 #top-images {
