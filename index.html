@@ -9,8 +9,10 @@
 <body>
 	<header role="banner">
 		<nav role="navigation">
-			<ul>
+			<!--this section is for the whole navigation bar-->
+			<ul id="main-nav">
 				<li id="settings"><a href="#"><img class="left" src="http://image.flaticon.com/icons/svg/126/126472.svg" width="32" height="32" alt="Settings icon" /></a>
+					<!--this section is the left hand side setting menu that appears on hover-->
 					<ul id="hover-content-settings">
 						<li><a href="">Profile</a></li>
 						<li><a href="">Location</a></li>
@@ -18,9 +20,9 @@
 						<li><a href="">Feedback</a></li>
 					</ul>
 				</li>
-					
-				<li id="logo"><a href="#"><img src="images/logo.jpg" width="120" height="100" alt="Wedding Tinder logo - a camera with a engagement ring cut out of with with the words Wedding Tinder undereath" /></a></li>
+				<li id="logo"><a href="#"><img src="images/logo.jpg" width="120" height="100" alt="Wedding Tinder logo" /></a></li>
 				<li id="chat"><a href="#"><img class="right" src="http://image.flaticon.com/icons/svg/126/126501.svg" width="32" height="32" alt="Chat bubble icon" /></a>
+					<!--this section is the right hand side chat menu that appears on hover-->
 					<ul id="hover-content-chat">
 						<li><a href="">Alex Macaulay <span class="green">&#9679;</span></a></li>
 						<li><a href="">Ben Allen <span class="green">&#9679;</span></a></li>
@@ -38,6 +40,7 @@
 		</nav>
 	</header>
 	<main role="main">
+		<!--this section appears on the left when the screen is large enough (1200px)-->
 		<aside id="left-aside">
 			<ul>
 				<a href=""><li>Profile</li></a>
@@ -45,7 +48,8 @@
 				<a href=""><li>Settings</li></a>
 				<a href=""><li>Feedback</li></a>
 			</ul>
-		</aside>
+		</aside><!--left-aside-->
+		<!--this section appears on the right when the screen is large enough (1200px)-->
 		<aside id="right-aside">
 			<ul>
 				<a href=""><li>Alex Macaulay <span class="green">&#9679;</span></li></a>
@@ -59,7 +63,8 @@
 				<a href=""><li>Ryan Morrison <span class="red">&#9679;</span></li></a>
 				<a href=""><li>Tom Hanson <span class="red">&#9679;</span></li></a>
 			</ul>
-		</aside>
+		</aside><!--right-aside-->
+		<!--this section holds the basic profile and buttons-->
 		<section id="snapshot">
 			<img src="images/anete.jpg" alt="Image of Anete Lusina - a young latvian woman with long brown hair" />
 			<ul>
@@ -69,21 +74,23 @@
 				<li><a href="#"><img src="images/heart.png" width="32" height="32" alt="Heart icon" /></a></li>
 			</ul>
 		</section><!--snapshot-->
-		<!--TODO: NEED TO ADD ALT TAG TO IMAGES HERE-->
+		<!--this section shows 4 top images for the person which enlarge on hover-->
 		<section id="top-images">
 			<ul>
-				<li><a href="#"><img src="images/love1.jpg" width="64" height="64" alt="" class="move-right" /></a></li>
-				<li><a href="#"><img src="images/love2.jpg" width="64" height="64" alt="" /></a></li>
-				<li><a href="#"><img src="images/love6.jpg" width="64" height="64" alt="" /></a></li>
-				<li><a href="#"><img src="images/love4.jpg" width="64" height="64" alt="" class="move-left" /></a></li>
+				<li><a href="#"><img src="images/love1.jpg" width="64" height="64" alt="a black and white photo of a groom holding his bride in his arms" class="move-right" /></a></li>
+				<li><a href="#"><img src="images/love2.jpg" width="64" height="64" alt="a photo of a bride resing her hands and chin on her groom's shoulder" /></a></li>
+				<li><a href="#"><img src="images/love6.jpg" width="64" height="64" alt="a photo of a newly weds hands overlapped with a bouquet of red roses behind" /></a></li>
+				<li><a href="#"><img src="images/love4.jpg" width="64" height="64" alt="a black and white photo of a bride and groom about to kiss by the doors of the church" class="move-left" /></a></li>
 			</ul>
-		</section>
+		</section><!--top-images-->
+		<!--this section holds the options for the user-->
 		<section id="icons">
 			<li><a href="#"><img src="images/refresh.png" width="32" height="32" alt="Refresh icon" /></a></li>
 			<li><a href="#"><img src="images/cross.png" width="64" height="64" alt="Red cross icon" /></a></li>
 			<li id="tick"><a href="#"><img src="images/tick.png" width="64" height="64" alt="Green tick icon" /></a></li>
 			<li><a href="#"><img src="images/star.png" width="32" height="32" alt="Star icon" /></a></li>
 		</section><!--icons-->
+		<!--this section holds the information about the person-->
 		<section id="profile">
 			<h2>About Anete</h2>
 			<p>
@@ -96,48 +103,32 @@
 				Please visit my <a href="http://europeanweddings.co" target="_blank">website</a>
 			</p>
 		</section><!--profile-->
-		<!--TODO: NEED TO ADD ALT TAG TO IMAGES HERE-->
+		<!--this section shows a column of images of the person's work-->
 		<section id="images">
 			<h2>Images</h2>
-			<img src="images/love1.jpg" alt="" />
-			<img src="images/love2.jpg" alt="" />
-			<img src="images/love3.jpg" alt="" />
-			<img src="images/love4.jpg" alt="" />
-			<img src="images/love5.jpg" alt="" />
-			<img src="images/love6.jpg" alt="" />
-			<img src="images/love7.jpg" alt="" />
-			<img src="images/love8.jpg" alt="" />
-			<img src="images/love9.jpg" alt="" />
-			<img src="images/love10.jpg" alt="" />
-			<img src="images/love11.jpg" alt="" />
-			<img src="images/love12.jpg" alt="" />
-			<img src="images/love13.jpg" alt="" />
-			<img src="images/love14.jpg" alt="" />
-			<img src="images/love15.jpg" alt="" />
-			<img src="images/love16.jpg" alt="" />
-			<img src="images/love17.jpg" alt="" />
-			<img src="images/love18.jpg" alt="" />
-			<img src="images/love19.jpg" alt="" />
-			<img src="images/love20.jpg" alt="" />
-			<img src="images/love21.jpg" alt="" />
-			<img src="images/love22.jpg" alt="" />
-			<img src="images/love23.jpg" alt="" />
-			<img src="images/love24.jpg" alt="" />
-			<img src="images/love25.jpg" alt="" />
-			<img src="images/love26.jpg" alt="" />
+			<img src="images/love1.jpg" alt="a black and white photo of a groom holding his bride in his arms" />
+			<img src="images/love2.jpg" alt="a photo of a bride resing her hands and chin on her groom's shoulder" />
+			<img src="images/love3.jpg" alt="a two part photo - on the left a groom and wife kissing, on the right a wife holding her husbands hand and looking at his ring" />
+			<img src="images/love4.jpg" alt="a black and white photo of a bride and groom about to kiss by the doors of the church" />
+			<img src="images/love5.jpg" alt="a two part photo - on the left a husband and wife about to kiss, on the right a closer shot of this" />
+			<img src="images/love6.jpg" alt="a photo of a newly weds hands overlapped with a bouquet of red roses behind" />
+			<img src="images/love7.jpg" alt="a photo of a lake" />
+			<img src="images/love8.jpg" alt="a photo of a husband kissing his wife" />
+			<img src="images/love9.jpg" alt="a photo of a husband and wife holding each other near a cliff" />
+			<img src="images/love10.jpg" alt="a two part photo - on the left a husband and wife cutting a cake" />
 		</section><!--images-->
-		<!--TODO: NEED TO ADD ALT TAG TO IMAGES HERE-->
 		<section id="to-top">
 			<a href="#top" class="bounce scroll-link" data-id="top">
 	            <img src="images/arrow.png" alt="Arrow icon with the word 'top' below it" style="width:80px;height:80px;">
 	        </a>		
 		</section><!--to-top-->
 	</main>
+	<!--this section holds the footer-->
 	<footer role="footer">
 		<h6>&copy; Alex Macaulay 2016</h6>
-	</footer>
+	</footer><!--footer-->
 
-
+	<!--this section is because i used icons made by the following person-->
 	<div style="display:none">Icons made by <a href="http://www.flaticon.com/authors/gregor-cresnar" title="Gregor Cresnar">Gregor Cresnar</a> from <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
 </body>
 </html>
