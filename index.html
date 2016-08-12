@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 	<title>Wedding Tinder</title>
 	<link rel="stylesheet" type="text/css" href="css/reset.css">
@@ -7,25 +7,37 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
-	<!--TODO: NEED TO ADD ALT TAG TO IMAGES HERE-->
-	<header>
-		<nav>
+	<header role="banner">
+		<nav role="navigation">
 			<ul>
-				<li id="settings"><a href="#"><img class="left" src="http://image.flaticon.com/icons/svg/126/126472.svg" width="32" height="32" alt="" /></a>
-				<ul id="hover-content">
-					<li><a href="">Profile</a></li>
-					<li><a href="">Location</a></li>
-					<li><a href="">Settings</a></li>
-					<li><a href="">Feedback</a></li>
-				</ul>
+				<li id="settings"><a href="#"><img class="left" src="http://image.flaticon.com/icons/svg/126/126472.svg" width="32" height="32" alt="Settings icon" /></a>
+					<ul id="hover-content-settings">
+						<li><a href="">Profile</a></li>
+						<li><a href="">Location</a></li>
+						<li><a href="">Settings</a></li>
+						<li><a href="">Feedback</a></li>
+					</ul>
 				</li>
 					
-				<li id="logo"><a href="#"><img src="images/logo.jpg" width="120" height="100" alt="" /></a></li>
-				<li id="chat"><a href="#"><img class="right" src="http://image.flaticon.com/icons/svg/126/126501.svg" width="32" height="32" alt="" /></a></li>
+				<li id="logo"><a href="#"><img src="images/logo.jpg" width="120" height="100" alt="Wedding Tinder logo - a camera with a engagement ring cut out of with with the words Wedding Tinder undereath" /></a></li>
+				<li id="chat"><a href="#"><img class="right" src="http://image.flaticon.com/icons/svg/126/126501.svg" width="32" height="32" alt="Chat bubble icon" /></a>
+					<ul id="hover-content-chat">
+						<li><a href="">Alex Macaulay <span class="green">&#9679;</span></a></li>
+						<li><a href="">Ben Allen <span class="green">&#9679;</span></a></li>
+						<li><a href="">Callum Leahy <span class="green">&#9679;</span></a></li>
+						<li><a href="">Danny Smith <span class="green">&#9679;</span></a></li>
+						<li><a href="">Greg Schild <span class="green">&#9679;</span></a></li>
+						<li><a href="">Jacob Burns <span class="green">&#9679;</span></a></li>
+						<li><a href="">Laura Salivonaite <span class="green">&#9679;</span></a></li>
+						<li><a href="">Ollie Holden <span class="red">&#9679;</span></a></li>
+						<li><a href="">Ryan Morrison <span class="red">&#9679;</span></a></li>
+						<li><a href="">Tom Hanson <span class="red">&#9679;</span></a></li>
+					</ul>
+				</li>
 			</ul>
 		</nav>
 	</header>
-	<main>
+	<main role="main">
 		<aside id="left-aside">
 			<ul>
 				<a href=""><li>Profile</li></a>
@@ -48,14 +60,13 @@
 				<a href=""><li>Tom Hanson <span class="red">&#9679;</span></li></a>
 			</ul>
 		</aside>
-		<!--TODO: NEED TO ADD ALT TAG TO IMAGES HERE-->
 		<section id="snapshot">
-			<img src="images/anete.jpg" />
+			<img src="images/anete.jpg" alt="Image of Anete Lusina - a young latvian woman with long brown hair" />
 			<ul>
 				<li><h1>Anete Lusina, Grimsby</h1></li>
-				<li><a href="#profile"><img src="images/profile.png" width="32" height="32" alt="" /></a></li>
-				<li><a href="#images"><img src="images/picture.png" width="32" height="32" alt="" /></a></li>
-				<li><a href="#"><img src="images/heart.png" width="32" height="32" alt="" /></a></li>
+				<li><a href="#profile"><img src="images/profile.png" width="32" height="32" alt="Profile icon" /></a></li>
+				<li><a href="#images"><img src="images/picture.png" width="32" height="32" alt="Picture icon" /></a></li>
+				<li><a href="#"><img src="images/heart.png" width="32" height="32" alt="Heart icon" /></a></li>
 			</ul>
 		</section><!--snapshot-->
 		<!--TODO: NEED TO ADD ALT TAG TO IMAGES HERE-->
@@ -67,12 +78,11 @@
 				<li><a href="#"><img src="images/love4.jpg" width="64" height="64" alt="" class="move-left" /></a></li>
 			</ul>
 		</section>
-		<!--TODO: NEED TO ADD ALT TAG TO IMAGES HERE-->
 		<section id="icons">
-			<li><a href="#"><img src="images/refresh.png" width="32" height="32" alt="" /></a></li>
-			<li><a href="#"><img src="images/cross.png" width="64" height="64" alt="" /></a></li>
-			<li id="tick"><a href="#"><img src="images/tick.png" width="64" height="64" alt="" /></a></li>
-			<li><a href="#"><img src="images/star.png" width="32" height="32" alt="" /></a></li>
+			<li><a href="#"><img src="images/refresh.png" width="32" height="32" alt="Refresh icon" /></a></li>
+			<li><a href="#"><img src="images/cross.png" width="64" height="64" alt="Red cross icon" /></a></li>
+			<li id="tick"><a href="#"><img src="images/tick.png" width="64" height="64" alt="Green tick icon" /></a></li>
+			<li><a href="#"><img src="images/star.png" width="32" height="32" alt="Star icon" /></a></li>
 		</section><!--icons-->
 		<section id="profile">
 			<h2>About Anete</h2>
@@ -119,13 +129,11 @@
 		<!--TODO: NEED TO ADD ALT TAG TO IMAGES HERE-->
 		<section id="to-top">
 			<a href="#top" class="bounce scroll-link" data-id="top">
-	            <img src="images/arrow.png" alt="" style="width:80px;height:80px;">
+	            <img src="images/arrow.png" alt="Arrow icon with the word 'top' below it" style="width:80px;height:80px;">
 	        </a>		
 		</section><!--to-top-->
-
 	</main>
-
-	<footer>
+	<footer role="footer">
 		<h6>&copy; Alex Macaulay 2016</h6>
 	</footer>
 
